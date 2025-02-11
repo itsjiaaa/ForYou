@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日快乐 🎉</title>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar">
+        <a href="#" onclick="showContent('home')">🏠 主页</a>
+        <a href="#" onclick="showContent('wish')">🎂 祝福</a>
+        <a href="#" onclick="showContent('memory')">📸 回忆</a>
+        <a href="#" onclick="showContent('gift')">🎁 礼物</a>
+        <a href="#" onclick="showContent('Unicode')">🔍 关于本网站</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>🎂 生日快乐，宝宝！ 🎉</h1>
+
+        <div id="home" class="content active">
+            <div style="display: flex; align-items: center;">
+                <div>
+                    <p>欢迎来到你的生日惊喜网站！💙</p>
+                    <p>今天是属于你的特别一天，希望你开心每一刻！🌸</p>
+                    <p>愿你的每一个生日都如此特别，充满爱与快乐。💖</p>
+                    <p>✨ 愿你的未来充满无限可能！🌟</p>
+                    <p>(右边的图片看起来和你一模一样)</p>
+                </div>
+                <img src="https://i.pinimg.com/736x/f6/b7/6b/f6b76bf7c78d529ed80e031c55d1fc29.jpg" alt="Birthday Image" style="border-radius: 15px; margin-left: 20px; width: 24%; height: auto;">
+                <img src="https://i.pinimg.com/736x/8e/74/19/8e74195129de34869c83af75cdaf6605.jpg" alt="Birthday Image" style="border-radius: 15px; margin-left: 20px; width: 30%; height: auto;">
+            </div>
+        </div>
+
+        <div id="wish" class="content">
+            <p>愿你的每一天都像蓝天一样晴朗，充满快乐 💙</p>
+        </div>
+
+        <div id="memory" class="content">
+            <h1 style="text-align: center;">让我们测试一下你的记忆力！</h1>
+            <div class="memory-game">
+                <div class="card" data-emoji="🍎"></div>
+                <div class="card" data-emoji="🍎"></div>
+                <div class="card" data-emoji="🍌"></div>
+                <div class="card" data-emoji="🍌"></div>
+                <div class="card" data-emoji="🍇"></div>
+                <div class="card" data-emoji="🍇"></div>
+                <div class="card" data-emoji="🍓"></div>
+                <div class="card" data-emoji="🍓"></div>
+                <div class="card" data-emoji="🍉"></div>
+                <div class="card" data-emoji="🍉"></div>
+                <div class="card" data-emoji="🍍"></div>
+                <div class="card" data-emoji="🍍"></div>
+                <div class="card" data-emoji="🥑"></div>
+                <div class="card" data-emoji="🥑"></div>
+                <div class="card" data-emoji="🍒"></div>
+                <div class="card" data-emoji="🍒"></div>
+                <div class="card" data-emoji="🍑"></div>
+                <div class="card" data-emoji="🍑"></div>
+                <div class="card" data-emoji="🥝"></div>
+                <div class="card" data-emoji="🥝"></div>
+                <div class="card" data-emoji="🍈"></div>
+                <div class="card" data-emoji="🍈"></div>
+                <div class="card" data-emoji="🍏"></div>
+                <div class="card" data-emoji="🍏"></div>
+                <div class="card" data-emoji="🥥"></div>
+                <div class="card" data-emoji="🥥"></div>
+                <div class="card" data-emoji="🍋"></div>
+                <div class="card" data-emoji="🍋"></div>
+                <div class="card" data-emoji="🍊"></div>
+                <div class="card" data-emoji="🍊"></div>
+            </div>
+        </div>
+
+        <div id="gift" class="content">
+            <h1>🎁 进入迷宫游戏！</h1>
+            <div class="maze-container">
+                <canvas id="mazeCanvas" width="800" height="600"></canvas>
+            </div>
+        </div>
+
+        <div id="Unicode" class="content"> 
+            <p>当我告诉你我会写一个网站作为给你的生日礼物时。<br><br>
+            我想了很久，我该怎样安排构图，该用什么图片，该写什么样的问候语。<br><br>
+            最后我决定用中文（即使使用翻译器）<br><br>
+            我的中文真的很差，我的笔记本电脑键盘没有中文。<br><br>
+            我希望你能理解。<br><br>
+            当你说你喜欢蓝色时我不确定它是什么颜色的蓝色，所以我决定使用这种蓝色。<br><br>
+            我很担心你会不喜欢它 <br><br>
+            最重要的我真的很喜欢这个字体！</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
